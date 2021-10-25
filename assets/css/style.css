@@ -938,6 +938,7 @@ section {
 --------------------------------------------------------------*/
 .docs {
   padding: 0;
+  background-color: rgb(232, 232, 232);
 }
 .docs .content {
   padding: 60px 100px 0 100px;
@@ -970,6 +971,9 @@ section {
 }
 .docs .accordion-list li + li {
   margin-top: 15px;
+}
+.list-group-item {
+  margin-top: 0px!important;
 }
 .docs .accordion-list li {
   padding: 20px;
